@@ -14,9 +14,20 @@ gem 'itrg_rubocop_config', git: 'https://github.com/InfoTech/itrg_rubocop_config
 Modify your ```.rubocop.yml```, remove all your app specific settings and add the following:
 
 ```ruby
+AllCops:
+  Exclude:
+    - db/**/*
+    - config/**/*
+    - script/**/*
+    - db/schema.rb
+  TargetRailsVersion: X
+  TargetRubyVersion: X.X
+
 inherit_gem:
   itrg_rubocop_config: rails/rubocop.yml
 ```
+
+Be sure to update your Target Versions appropriately.
 
 And then execute:
 ```bash
