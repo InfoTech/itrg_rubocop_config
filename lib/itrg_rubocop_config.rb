@@ -1,0 +1,3 @@
+module ItrgRubocopConfig
+  # Your code goes here...
+end

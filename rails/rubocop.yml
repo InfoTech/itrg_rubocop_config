@@ -1,0 +1,9 @@
+inherit_from: ../ruby/rubocop.yml
+AllCops:
+  Exclude:
+    - bin/**/*
+    - vendor/**/*
+    - scripts/**/*
+    - db/schema.rb
+Rails:
+  Enabled: true
