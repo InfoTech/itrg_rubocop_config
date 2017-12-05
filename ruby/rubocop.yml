@@ -34,7 +34,7 @@ Style/Encoding:
   Enabled: false
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#utf-8'
 
-Style/ExtraSpacing:
+Layout/ExtraSpacing:
   Description: Do not use unnecessary spacing.
   Enabled: true
 

@@ -5,10 +5,16 @@ Utilized to be able to manage and share the same Rubocop configuration across al
 None, it should just work with your Rubocop.
 
 ## Installation
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile, in the development block:
 
 ```ruby
 gem 'itrg_rubocop_config', git: 'https://github.com/InfoTech/itrg_rubocop_config.git', branch: 'master'
+```
+
+Add Rubocop, if for some reason it isn't there:
+
+```ruby
+gem 'rubocop', '~> 0.51.0'
 ```
 
 Modify your ```.rubocop.yml```, remove all your app specific settings and add the following:
