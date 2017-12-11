@@ -9,14 +9,10 @@ Gem::Specification.new do |s|
   s.version     = ItrgRubocopConfig::VERSION
   s.authors     = ["Jason Brodie"]
   s.email       = ["jbrodie@infotech.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/InfoTech/itrg_rubocop_config"
   s.summary     = "Infotech RuboCop Shared Settings."
   s.description = "A plugin to allow the sharing of RuboCop settings across different projects."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
-
-  # s.add_dependency "rails", "~> 5.1.4"
-
-  # s.add_development_dependency "sqlite3"
+  s.files = Dir["{app,config,db,lib,rails,ruby}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 end
