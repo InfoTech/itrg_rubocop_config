@@ -8,7 +8,7 @@ None, it should just work with your Rubocop.
 Add this line to your application's Gemfile, in the development block:
 
 ```ruby
-gem 'itrg_rubocop_config', git: 'https://github.com/InfoTech/itrg_rubocop_config.git', branch: 'master'
+gem 'itrg_rubocop_config', '1.0.1'
 ```
 
 Add Rubocop, if for some reason it isn't there:
