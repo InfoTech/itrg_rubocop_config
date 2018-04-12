@@ -40,6 +40,14 @@ And then execute:
 $ bundle
 ```
 
+
+##Publishing Gem
+
+```ruby
+gem build itrg_rubocop_config.gemspec
+gem push itrg_rubocop_config-X.X.X.gem
+```
+
 ## Contributing
 1. Cut a branch.
 2. Add your changes.
