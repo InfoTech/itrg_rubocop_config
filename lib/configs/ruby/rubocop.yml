@@ -1,47 +1,35 @@
 Documentation:
   Enabled: false
-
+Layout/ExtraSpacing:
+  Description: Do not use unnecessary spacing.
+  Enabled: true
 Layout/MultilineOperationIndentation:
   Enabled: false
-
 Metrics/AbcSize:
   Enabled: false
-
 Metrics/ClassLength:
   Max: 150
-
 Metrics/CyclomaticComplexity:
   Enabled: false
-
 Metrics/LineLength:
   AllowURI: true
   Max: 120
   URISchemes:
     - http
     - https
-
 Metrics/MethodLength:
   Max: 20
-
 Metrics/PerceivedComplexity:
   Enabled: false
-
 Rails:
   Enabled: true
-
 Style/Encoding:
   Description: Use UTF-8 as the source file encoding.
   Enabled: false
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#utf-8'
-
-Layout/ExtraSpacing:
-  Description: Do not use unnecessary spacing.
-  Enabled: true
-
 Style/FrozenStringLiteralComment:
   Description: This cop is designed to help upgrade to Ruby 3.0
   Enabled: false
-
 Style/InlineComment:
   Description: Avoid inline comments.
   Enabled: false
