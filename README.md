@@ -8,13 +8,21 @@ None, it should just work with your Rubocop.
 Add this line to your application's Gemfile, in the development block:
 
 ```ruby
+# Ruby 1.9, 2.0, 2.1, 2.2, 2.3, 2.4
 gem 'itrg_rubocop_config', '1.0.1'
+
+# Ruby 2.5
+gem 'itrg_rubocop_config', '1.0.2'
 ```
 
 Add Rubocop, if for some reason it isn't there:
 
 ```ruby
+# Ruby 1.9, 2.0, 2.1, 2.2, 2.3, 2.4
 gem 'rubocop', '~> 0.51.0'
+
+# Ruby 2.5
+gem 'rubocop', '~> 0.52.1'
 ```
 
 Modify your ```.rubocop.yml```, remove all your app specific settings and add the following:
@@ -41,7 +49,7 @@ $ bundle
 ```
 
 
-##Publishing Gem
+## Publishing Gem
 
 ```ruby
 gem build itrg_rubocop_config.gemspec
