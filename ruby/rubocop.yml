@@ -1,4 +1,4 @@
-Documentation:
+Style/Documentation:
   Enabled: false
 
 Layout/MultilineOperationIndentation:
@@ -13,7 +13,7 @@ Metrics/ClassLength:
 Metrics/CyclomaticComplexity:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   AllowURI: true
   Max: 120
   URISchemes:

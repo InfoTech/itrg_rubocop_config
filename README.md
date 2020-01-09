@@ -13,6 +13,7 @@ gem 'itrg_rubocop_config', '1.0.1'
 
 # Ruby 2.5
 gem 'itrg_rubocop_config', '1.0.2'
+
 ```
 
 Add Rubocop, if for some reason it isn't there:
@@ -23,6 +24,10 @@ gem 'rubocop', '~> 0.51.0'
 
 # Ruby 2.5
 gem 'rubocop', '~> 0.52.1'
+
+# Rubocop 0.79
+gem 'rubocop', '~> 0.79'
+gem 'itrg_rubocop_config', '1.0.3'
 ```
 
 Modify your ```.rubocop.yml```, remove all your app specific settings and add the following:
