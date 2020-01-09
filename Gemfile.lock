@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    itrg_rubocop_config (1.0.2)
+    itrg_rubocop_config (1.0.3)
 
 GEM
   remote: https://rubygems.org/
@@ -14,4 +14,4 @@ DEPENDENCIES
   itrg_rubocop_config!
 
 BUNDLED WITH
-   1.16.0
+   1.17.3
