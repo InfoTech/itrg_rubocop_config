@@ -27,7 +27,7 @@ gem 'rubocop', '~> 0.52.1'
 
 # Rubocop 0.79
 gem 'rubocop', '~> 0.79'
-gem 'itrg_rubocop_config', '1.0.3'
+gem 'itrg_rubocop_config', '1.0.4'
 ```
 
 Modify your ```.rubocop.yml```, remove all your app specific settings and add the following:
